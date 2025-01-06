@@ -20,6 +20,7 @@ class Car(models.Model):
     def __str__(self):
         return self.model
 #a
+#a
 
 
 #testando o 
