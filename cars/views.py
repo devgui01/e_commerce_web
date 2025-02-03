@@ -14,4 +14,6 @@ def cars_view(request):
         'cars.html', 
           {'cars': cars }
           )
-#teste
+
+def new_car_view(request):
+    return 'Novo carro!'
