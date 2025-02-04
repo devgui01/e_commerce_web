@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <form method="post">
+        {% csrf_token %}
+
+        <div class="form-group">            
+            <label>Usuário: </label>
+            {{ user_form.username }}
+        </div>
+
+        <input type="submit" value="Cadastrar">
+   </form>
+
+{% endblock %}   
