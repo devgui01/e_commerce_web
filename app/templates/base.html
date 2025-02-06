@@ -82,6 +82,10 @@
         {% endif %}
 
         <li><a href="{% url 'cars_list' %}">Carros</a></li>        
+
+        {% if user.is_authenticated %}
+          <li><a href="{% url 'logout' %}">Sair</a></li>        
+        {% endif %}
       </ul>
     </nav>
   </header>
