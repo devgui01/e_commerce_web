@@ -31,8 +31,4 @@ class CarUpdateView(UpdateView):
     success_url = '/cars/'
 #a    
 #aaa
-#aaaa
-#a
-#aa
-#EHHE
-#123123
+
