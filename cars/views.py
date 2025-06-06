@@ -29,4 +29,3 @@ class CarUpdateView(UpdateView):
     form_class = CarModelForm
     template_name = 'car_update.html'     
     success_url = '/cars/'
-#aaa
